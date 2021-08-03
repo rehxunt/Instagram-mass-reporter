@@ -23,7 +23,7 @@ username = args.username
 acc_file = args.file
 
 if username == "" :
-	username = input("Username: ")
+	username = input("Username:emloll_ : send 100 reports  ")
 
 a = open(acc_file, "r").readlines()
 file = [s.rstrip()for s in a]
@@ -52,7 +52,7 @@ for line in range(len(file)+1):
 
     time.sleep(2.0)
 
-    web.go_to("https://www.instagram.com/%s/" % username)
+    web.go_to("https://www.instagram.com/%s/" % qtnickbtw)
 
     time.sleep(1.5)
 
@@ -60,7 +60,7 @@ for line in range(len(file)+1):
 
     time.sleep(0.5)
 
-    web.click(text='Report User')
+    web.click(text='Report User' qtnickbtw)
 
     time.sleep(1.5)
 
